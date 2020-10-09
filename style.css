@@ -1,0 +1,14 @@
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+ p {
+   font-family: 'Roboto', sans-serif;
+ } 
+
+ .main-container header {
+   background-image: url(spaceX.jpg)
+  }
+
+  .nasa-text {
+    
+  }
