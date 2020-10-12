@@ -1,14 +1,48 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+}
 h1 {
   font-family: 'Oswald', sans-serif;
 }
- p {
-   font-family: 'Roboto', sans-serif;
- } 
 
- .main-container header {
-   background-image: url(spaceX.jpg)
-  }
+main {
+  font-family: 'Abel', sans-serif;
+}
 
-  .nasa-text {
-    
-  }
+.main-container header {
+  background-image: url(spaceX.jpg);
+  background-size: cover;
+  width: 850px;
+  height:450px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  width: 850px;
+  height: 300px;
+  margin-top:24px;
+}
+
+section {
+  width: 270px;
+  margin-left:25px;
+}
+
+p {
+  line-height: 30px;
+  
+}
+
+.OfficeINFO{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.MSG {
+  padding-bottom: 50px;
+}
